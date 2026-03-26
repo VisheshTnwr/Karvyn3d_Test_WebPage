@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Using a contrasting Orange for the Light Theme accent */
+  --color-accent: #ea580c; 
+}
+
+:root {
+  --color-accent: #ea580c;
+}
+
+body {
+    /* Light Mode Background */
+    background-color: #ffffff;
+    /* Dark Text */
+    color: #0f172a; 
+    font-family: var(--font-sans), sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Ensure headings are dark for readability */
+h1, h2, h3, h4, h5, h6 {
+    color: #0f172a;
+    letter-spacing: -0.02em; 
+}
+
+/* Accent text for Light Theme */
+.text-accent-readable {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.font-heading {
+    font-family: var(--font-heading), sans-serif;
+    font-weight: 700;
+}
+
+/* Card Styles for Light Theme (clean borders/shadows) */
+.industrial-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+}
+
+.industrial-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+    transform: translateY(-2px);
+}
