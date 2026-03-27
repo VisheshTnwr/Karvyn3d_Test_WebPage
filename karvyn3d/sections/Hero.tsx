@@ -7,15 +7,15 @@ import Link from "next/link";
 // Updated Carousel: Focus on YOUR products, not services
 const productGallery = [
   {
-    src: "/images/Labware.jpg",
+    src: "/images/Labware.jpg", // Correct
     label: "MRI-Compatible Animal Restraints • Non-Ferromagnetic"
   },
   {
-    src: "/images/Lab_Equipments.jpg",
+    src: "/images/Lab Equipment.png", 
     label: "Custom Centrifuge Rotors • Precision Balanced"
   },
   {
-    src: "/images/PCB.jpg",
+    src: "/images/PCB.jpg", 
     label: "Proprietary R&D Tooling • High-Performance Polymers"
   },
 ];
