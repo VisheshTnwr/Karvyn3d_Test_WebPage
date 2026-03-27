@@ -95,7 +95,7 @@ export const SERVICES = [
     title: "Custom Labware & Microfluidics",
     description: "Specialized scientific apparatus including bespoke centrifuge rotors, micro-fluidic jigs, and reaction vessels. We manufacture the precise tools that aren't available in standard catalogues.",
     icon: FlaskConical,
-    imageUrl: "/images/Lab_Equipments.jpg", // Corrected: This matches your file with the underscore
+    imageUrl: "/images/Lab-Equipments2.jpg", // Updated to match your new filename
   },
   {
     title: "R&D Instrumentation Enclosures",
@@ -107,7 +107,7 @@ export const SERVICES = [
     title: "Industrial Research Tools",
     description: "Bespoke mechanical hardware for grant-backed institutional projects. We provide the engineering and fabrication infrastructure for complex PhD and university-level research.",
     icon: GraduationCap,
-    imageUrl: "/images/Lab Equipment.png", // Corrected: Matches "Lab Equipment.png" (Space + .png)
+    imageUrl: "/images/Lab-Equipment.png", // Updated to hyphenated name
   },
   {
     title: "Functional Prototype Validation",
@@ -119,6 +119,6 @@ export const SERVICES = [
     title: "Low-Volume Batch Production",
     description: "Direct manufacturing of end-use components in quantities of 50 to 1,000. Optimized for high-mix production of specialized hardware with zero tooling costs.",
     icon: Factory,
-    imageUrl: "/images/PCB Housing.jpg", // Corrected: Matches "PCB Housing.jpg" (Space)
+    imageUrl: "/images/PCB-Housing.jpg", // Updated to hyphenated name
   }
 ];

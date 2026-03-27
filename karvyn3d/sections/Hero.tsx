@@ -4,14 +4,14 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// Updated Carousel: Focus on YOUR products, not services
+// Updated Carousel: Matching your new hyphenated filenames
 const productGallery = [
   {
-    src: "/images/Labware.jpg", // Correct
+    src: "/images/Labware.jpg", 
     label: "MRI-Compatible Animal Restraints • Non-Ferromagnetic"
   },
   {
-    src: "/images/Lab Equipment.png", 
+    src: "/images/Lab-Equipment.png", // Updated to hyphenated .png
     label: "Custom Centrifuge Rotors • Precision Balanced"
   },
   {
@@ -140,6 +140,7 @@ export default function Hero() {
                 fill
                 className="object-cover"
                 priority
+                unoptimized // Added to bypass Netlify image optimization issues
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             </motion.div>
