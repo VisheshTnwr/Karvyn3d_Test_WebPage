@@ -1,4 +1,4 @@
-# 🧊 Karvyn3D (Developer Cheatsheet)
+
 
 > **Private Documentation**
 > *Built with Next.js 16 (Canary) + React 19 + Tailwind v4*
